@@ -50,7 +50,7 @@ void algo1()
 }
 
 /*
-algo2 should give same values as algo1
+algo2 should give the same values as algo1
 */
 void algo2()
 {
@@ -65,7 +65,7 @@ void algo2()
 		ones_array[roll_sessions] = ones;
 		roll_sessions++;
 	}
-	for(unsigned int i = 0; i < roll_sessions; i++)
+	for(unsigned long i = 0; i < roll_sessions; i++)
 	{
 		if(ones_array[i] > highest_roll) highest_roll = ones_array[i];
 	}
