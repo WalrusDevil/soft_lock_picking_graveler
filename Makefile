@@ -1,0 +1,2 @@
+soft_lock_picking_graveler: soft_lock_picking_graveler.c
+	cc soft_lock_picking_graveler.c -o soft_lock_picking_graveler
